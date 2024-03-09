@@ -38,7 +38,6 @@ const store = configureStore({
 
 export default store;
 
-
 const increment = countReducer.actions.increment;
 const decrement = countReducer.actions.decrement;
 
