@@ -1,11 +1,8 @@
-import React from 'react'
+import React from "react";
+
 
 const IncrementButton = () => {
-  return (
-    <div>
-        <button>+</button>
-    </div>
-  )
-}
+  return <button>+</button>;
+};
 
-export default IncrementButton
+export default IncrementButton;
