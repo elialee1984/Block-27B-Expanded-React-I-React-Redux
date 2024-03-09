@@ -1,6 +1,12 @@
 import React from "react";
 
-const Number = ({ count }) => {
+import { useSelector } from "react-redux";
+
+const Number = () => {
+  const count = useSelector((state) => {
+    return state.count;
+  });
+
   return <div>{count}</div>;
 };
 
