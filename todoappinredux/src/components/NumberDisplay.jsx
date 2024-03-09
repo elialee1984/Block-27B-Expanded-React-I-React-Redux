@@ -3,11 +3,11 @@ import React from "react";
 import Header from "./Header";
 import Number from "./Number";
 
-const NumberDisplay = () => {
+const NumberDisplay = ({ count }) => {
   return (
     <div>
       <Header />
-      <Number />
+      <Number count={count} />
     </div>
   );
 };

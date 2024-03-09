@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Number = () => {
-  return (
-    <div>Number</div>
-  )
-}
+const Number = ({ count }) => {
+  return <div>{count}</div>;
+};
 
-export default Number
+export default Number;

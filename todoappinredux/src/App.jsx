@@ -11,7 +11,7 @@ const App = () => {
   return (
     <div>
       <DecrementButton />
-      <NumberDisplay />
+      <NumberDisplay count={count} />
       <IncrementButton />
     </div>
   );
